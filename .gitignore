@@ -1,0 +1,42 @@
+# Build artifacts
+build/
+dist/
+
+# Binary executables
+piam-anc
+piam-anc-test
+sql-network-manager-test
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+
+# Go specific
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# Environment variables
+.env
+.env.local
